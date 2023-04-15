@@ -10,11 +10,11 @@ Maka dari itu package sederhana ini meruapakan project kecil saya untuk membuat 
 
 1. Buka Terminal pada project kalian
    
-   ![](/home/iyan/Downloads/DEMO-2023-04-15_13.47.26.gif)
+   ![](/images/demo.gif)
 
 2. Voila sebuah folder beserta file sudah tersedia
    
-   ![](/home/iyan/Documents/1.%20Folder%20Github/MY-CLI-APP/images/voila.png)
+   ![](/images/voila.png)
    
    
 
