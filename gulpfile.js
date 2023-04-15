@@ -6,10 +6,6 @@ gulp.task("minify", function () {
   return gulp.src(["bin/*.js"]).pipe(gulpUglify()).pipe(gulp.dest("dist/"));
 });
 
-gulp.task("remove", function () {
-  return gulp.src(["package.json"]).pipe(gulp.dest("dist/"));
-});
-
 gulp.task("clean", function () {
   return gulp
     .src("dist", {
@@ -28,4 +24,4 @@ gulp.task("clean", function () {
     .pipe(clean());
 });
 
-gulp.task("build", gulp.series("clean", "minify", "remove"));
+gulp.task("build", gulp.series("clean", "minify"));
