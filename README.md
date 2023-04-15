@@ -6,14 +6,16 @@ Express merupakan framework dari nodejs yang memiliki fleksibilitas penuh terhad
 
 Maka dari itu package sederhana ini meruapakan project kecil saya untuk membuat project express lebih tertata dan rapih.
 
-
-
 ##### **Cara Penggunaan**
 
 1. Buka Terminal pada project kalian
+   
+   ![](/home/iyan/Downloads/DEMO-2023-04-15_13.47.26.gif)
 
-2. Kemudian ketikkan 
-
-3. Voila sebuah folder dan file sudah tersedia
+2. Voila sebuah folder beserta file sudah tersedia
+   
+   ![](/home/iyan/Documents/1.%20Folder%20Github/MY-CLI-APP/images/voila.png)
+   
+   
 
 
