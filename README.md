@@ -21,11 +21,3 @@ yarn add -g .
 ```
 
 ##### **Cara Penggunaan**
-
-1. Buka Terminal pada project kalian
-
-   ![](/images/demo.gif)
-
-2. Voila sebuah folder beserta file sudah tersedia
-
-   ![](/images/voila.png)
