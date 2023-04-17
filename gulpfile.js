@@ -9,10 +9,6 @@ gulp.task("minify", function () {
     .pipe(gulp.dest("bin/"));
 });
 
-gulp.task("move", function () {
-  return gulp.src(["package.json", "node_modules"]).pipe(gulp.dest("bin/"));
-});
-
 gulp.task("clean", function () {
   return gulp
     .src("bin", {
@@ -31,4 +27,4 @@ gulp.task("clean", function () {
     .pipe(clean());
 });
 
-gulp.task("build", gulp.series("clean", "minify", "move"));
+gulp.task("build", gulp.series("clean", "minify"));

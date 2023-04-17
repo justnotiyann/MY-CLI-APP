@@ -1,0 +1,1 @@
+const fs=require("fs"),createModelFileName=(e,l)=>{fs.appendFile(e+`/${l}.model.js`,"// Model ",function(e){if(e)throw e;return console.log("File is created successfully.")})},createModelFile=e=>{var l="./app/models";return fs.existsSync(l)||fs.mkdirSync(l,{recursive:!0}),createModelFileName(l,e)};module.exports={createModelFile:createModelFile};
