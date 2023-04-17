@@ -5,7 +5,7 @@
   },
   "name": "create-api-express-js",
   "version": "2.0.1",
-  "main": "bin/main.js",
+  "main": "src/main.js",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
@@ -24,6 +24,6 @@
   "license": "ISC",
   "description": "Membuat folder api beserta file controller, routes dan services",
   "bin": {
-    "create-api": "./bin/main.js"
+    "create-api": "./src/main.js"
   }
 }
