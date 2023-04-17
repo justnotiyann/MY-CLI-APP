@@ -17,21 +17,21 @@ npm i -g .
 ##### **FITUR**
 
 1. Membuat file untuk handle logic api yang terdiri dari :
-   
+
    - File Routes : Untuk mendaftarkan routes api
-   
+
    - File Controller : Melakukan semua logic untuk routes tersebut
-   
+
    - File Services : Handle file logic untuk file controller
 
 2. Membuat file untuk handle models dalam menghandle model database
 
-##### **Cara Penggunaan**
+##### **DEMO**
 
 1. Buka Terminal pada project kalian
-   
+
    ![](/images/demo.gif)
 
 2. Voila sebuah folder beserta file sudah tersedia
-   
+
    ![](/images/voila.png)
