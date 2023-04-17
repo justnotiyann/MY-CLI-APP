@@ -30,8 +30,8 @@ npm i -g .
 
 1. Buka Terminal pada project kalian
 
-   ![](/images/demo.gif)
+   ![](/images/update-demo.gif)
 
 2. Voila sebuah folder beserta file sudah tersedia
 
-   ![](/images/voila.png)
+   ![](/images/update-voila.png)
