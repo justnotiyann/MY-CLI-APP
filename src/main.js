@@ -1,21 +1,23 @@
 #!/usr/bin/env node
 const inquirer = require("inquirer");
-const { createFolderFs } = require("./controller/fs-controller");
+const {
+  createFolderController,
+} = require("./controller/fs-controller-controller");
+const { createModelFile } = require("./controller/fs-model-controller");
 const { questions } = require("./controller/inquirer.controller");
 
 const createApi = inquirer.prompt(questions).then((answers) => {
   const { action, action_name } = answers;
   switch (action) {
     case "controller":
-      createFolderFs(action_name);
+      createFolderController(action_name);
       break;
 
     case "model":
-      console.log("Masuk ke Membuat model");
+      createModelFile(action_name);
       break;
 
     default:
-      console.log(result);
       console.log("Masuk ke Default");
       break;
   }
