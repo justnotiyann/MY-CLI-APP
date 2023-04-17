@@ -14,12 +14,6 @@ Using npm
 npm i -g .
 ```
 
-or using yarn
-
-```bash
-yarn add -g .
-```
-
 ##### **Cara Penggunaan**
 
 1. Buka Terminal pada project kalian
