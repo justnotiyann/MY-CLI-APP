@@ -4,7 +4,7 @@
     "readline": "^1.3.0"
   },
   "name": "create-api-express-js",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "src/main.js",
   "devDependencies": {
     "gulp": "^4.0.2",
